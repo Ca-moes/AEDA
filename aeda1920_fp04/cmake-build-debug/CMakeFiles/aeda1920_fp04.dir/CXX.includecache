@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp04/Tests/insertionSort.h
+vector
+-
+
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp04/Tests/parque.cpp
+parque.h
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp04/Tests/parque.h
+insertionSort.h
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp04/Tests/insertionSort.h
+sequentialSearch.h
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp04/Tests/sequentialSearch.h
+algorithm
+-
+vector
+-
+
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp04/Tests/parque.h
+iostream
+-
+string
+-
+vector
+-
+
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp04/Tests/sequentialSearch.h
+vector
+-
+

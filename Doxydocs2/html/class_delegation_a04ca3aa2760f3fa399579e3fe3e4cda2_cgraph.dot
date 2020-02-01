@@ -1,0 +1,24 @@
+digraph "Delegation::showAllTrials"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Delegation::showAllTrials",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="checkinputchoice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menus_8cpp.html#a9a825f830de2a8df955bbffae0852fd8",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sortCompetitionsByDate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$auxiliar_8cpp.html#af9bd6238c2fad6e3154e2450eca4cadc",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Competition::getBegin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_competition.html#ae498843533e4ff66894dfa89b9eb6a25",tooltip=" "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Competition::getEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_competition.html#aa3ab169eb31dd6d161f9f908989e843f",tooltip=" "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Competition::getName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_competition.html#a96f44ffcbc6ef141aa4901732b502fc9",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="sortTrialsByDate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$auxiliar_8cpp.html#a78a3abe990eed549320423f74dec18e4",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Trial::getDate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_trial.html#a4a4089150e61b011edcc7055b1d3e6f7",tooltip=" "];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Trial::getName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_trial.html#a0b79d1dfaded2b564c8760552bb55622",tooltip=" "];
+}

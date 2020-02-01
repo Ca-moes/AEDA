@@ -1,0 +1,7 @@
+digraph "Participant"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Participant\n|# sport\l# competitions\l|+ Participant()\l+ ~Participant()\l+ getName()\l+ setName()\l+ setCompetitions()\l+ getCompetitions()\l+ getSport()\l+ setSport()\l+ showInfo()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

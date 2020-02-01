@@ -1,0 +1,39 @@
+digraph "Person::getName"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Person::getName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Athlete::getName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_athlete.html#a8ca2267d4dc27a6e90d92db92ca31d9c",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Delegation::addAthlete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#ab866b2767a25be9969f14497d9c3789c",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="athletesMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menus_8h.html#a336b022a408e06794a347e891401c9ca",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="participantsMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menus_8h.html#afaaa214f73c61fe67f6f4842402ee332",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mainMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menus_8h.html#adea89c8d29e4ae56d3ad951015c13f19",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Delegation::Delegation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a7974b21ea4c06b7fb1245507c2093b63",tooltip=" "];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Delegation::changeAthlete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#adccac8a7ec52d8dbcb0e531243dbebf2",tooltip=" "];
+  Node8 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Athlete::playsTeamSport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_athlete.html#ae7fb370cd7aae66a51494c2c809e36d6",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Person::info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_person.html#a55b73bbe2f35eb2249b7a8225cd123e3",tooltip=" "];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Athlete::info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_athlete.html#a3fbce844608cbb478101e8cc69b0e56b",tooltip=" "];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Staff::info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#a5653336a15051d84bc8884a7bca9b5dc",tooltip=" "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="staffHash::operator()",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structstaff_hash.html#a235f9e9413ed63881262a7eb195d4642",tooltip=" "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Person::operator\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_person.html#a06aa9f319dc52ed56d2d5e10770591d8",tooltip=" "];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_person_8h.html#a520925d2df99c77933138568a48577dd",tooltip=" "];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="operator==",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_person_8cpp.html#aeddc9e6cfe62ccf931ac4980e57c0178",tooltip=" "];
+}

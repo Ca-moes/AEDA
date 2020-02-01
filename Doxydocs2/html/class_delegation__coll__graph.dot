@@ -1,0 +1,19 @@
+digraph "Delegation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Delegation\n|- delegationFilename\l- peopleFilename\l- competitionsFilename\l- teamsFilename\l- recordsFilename\l- country\l- dailyCostStaff\l- dailyCostAthlete\l- totalCost\l- people\l- athletes\l- teams\l- sports\l- staff\l- staffService\l|+ Delegation()\l+ ~Delegation()\l+ readDelegationFile()\l+ readPeopleFile()\l+ writePeopleFile()\l+ readCompetitionsFile()\l+ writeCompetitionsFile()\l+ readTeamsFile()\l+ writeTeamsFile()\l+ writeDelegationFile()\land 69 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -records" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{BST\< Record \>\n||+ BST()\l+ BST()\l+ ~BST()\l+ findMin()\l+ findMax()\l+ find()\l+ isEmpty()\l+ printTree()\l+ makeEmpty()\l+ insert()\l+ remove()\l+ operator=()\l- findMin()\l- findMax()\l- find()\l- printTree()\l- makeEmpty()\l- insert()\l- remove()\l- elementAt()\l- clone()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t.html",tooltip=" "];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -ITEM_NOT_FOUND" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{Record\n|- place\l- recordist\l- country\l- sport\l- competition\l- trial\l- record\l- comparisonCriteria\l|+ Record()\l+ Record()\l+ Record()\l+ operator==()\l+ operator\<()\l+ getDate()\l+ setDate()\l+ getPlace()\l+ setPlace()\l+ getRecordist()\land 14 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html",tooltip=" "];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" -date" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{Date\n|- year\l- month\l- day\l|+ Date()\l+ Date()\l+ Date()\l+ getYear()\l+ setYear()\l+ getMonth()\l+ setMonth()\l+ getDay()\l+ setDay()\l+ validateDate()\l+ isOlimpianDate()\l+ leapYear()\l+ operator\<()\l+ operator==()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_date.html",tooltip=" "];
+  Node5 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -root" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{BinaryNode\< Record \>\n||- BinaryNode()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_binary_node.html",tooltip=" "];
+  Node3 -> Node5 [color="grey25",fontsize="10",style="solid",label=" -element" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 -> Node5 [color="grey25",fontsize="10",style="solid",label=" -left\n-right" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{BinaryNode\< Comparable \>\n|- element\l|- BinaryNode()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_binary_node.html",tooltip=" "];
+  Node6 -> Node6 [color="grey25",fontsize="10",style="solid",label=" -left\n-right" ,arrowhead="odiamond",fontname="Helvetica"];
+}

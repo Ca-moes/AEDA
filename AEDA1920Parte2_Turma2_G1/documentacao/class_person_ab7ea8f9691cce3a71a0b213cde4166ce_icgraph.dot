@@ -1,0 +1,16 @@
+digraph "Person::getPassport"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Person::getPassport",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Person::info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_person.html#a55b73bbe2f35eb2249b7a8225cd123e3",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Athlete::info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_athlete.html#a3fbce844608cbb478101e8cc69b0e56b",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Staff::info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#a5653336a15051d84bc8884a7bca9b5dc",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_person_8h.html#a520925d2df99c77933138568a48577dd",tooltip=" "];
+}

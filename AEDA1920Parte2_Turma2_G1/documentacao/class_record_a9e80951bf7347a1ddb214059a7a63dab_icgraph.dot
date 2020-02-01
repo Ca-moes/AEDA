@@ -1,0 +1,25 @@
+digraph "Record::showInfo"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Record::showInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Delegation::showAllRecords",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a60c3e60c6c2d20afe1803332a68fb09b",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="resultsAndRecordsMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menus_8h.html#a71cead1a8fbcf6d5a67c0d9ca7da78fe",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mainMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menus_8h.html#adea89c8d29e4ae56d3ad951015c13f19",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Delegation::Delegation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a7974b21ea4c06b7fb1245507c2093b63",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Delegation::showRecordsBy\lCompetition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a803885e4d65ce554e6bd70fc2ac0f482",tooltip=" "];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Delegation::showRecordsBy\lSport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#ae6fd0c78eb3095a42cbb0b3059c259ce",tooltip=" "];
+  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Delegation::showTokyoRecords",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a7226edd9d77129766be88dcf5d96423d",tooltip=" "];
+  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

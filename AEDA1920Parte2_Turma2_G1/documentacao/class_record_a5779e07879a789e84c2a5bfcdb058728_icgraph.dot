@@ -1,0 +1,26 @@
+digraph "Record::getTrial"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Record::getTrial",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Record::operator\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a0a9a1a17893cc1297648fb65767aa956",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Record::operator==",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a7a96e747fa015a58de2b35bed3ab8c42",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Record::Record",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a55324487fe8ddb6d260feba8864cc7eb",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Delegation::showRecordsBy\lCompetition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a803885e4d65ce554e6bd70fc2ac0f482",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="resultsAndRecordsMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menus_8h.html#a71cead1a8fbcf6d5a67c0d9ca7da78fe",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mainMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menus_8h.html#adea89c8d29e4ae56d3ad951015c13f19",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Delegation::Delegation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a7974b21ea4c06b7fb1245507c2093b63",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Delegation::writeRecordsFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a7e53245f974022889c32373643dfe878",tooltip=" "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Delegation::~Delegation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#ac965ae5422f16f8f66de63f2c4b23c2b",tooltip=" "];
+}

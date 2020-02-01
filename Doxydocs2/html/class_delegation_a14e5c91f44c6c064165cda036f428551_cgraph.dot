@@ -1,0 +1,14 @@
+digraph "Delegation::addRecord"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Delegation::addRecord",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BST::find",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t.html#aaf4eb6869f68db0069534f7b2dfbe53b",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="BST::insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t.html#a2b117df6521c7d61dac75ff2c938bae7",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="BST::remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t.html#a6f01a0b44daf82a42022b6eb4c0df7a2",tooltip=" "];
+}

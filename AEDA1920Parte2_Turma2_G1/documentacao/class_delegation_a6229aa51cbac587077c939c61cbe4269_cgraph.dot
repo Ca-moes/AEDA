@@ -1,0 +1,32 @@
+digraph "Delegation::setRecords"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Delegation::setRecords",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BST::find",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t.html#aaf4eb6869f68db0069534f7b2dfbe53b",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Record::getComparisonCriteria",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a567e4ec69efbad165c75487b49437eef",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Delegation::getCountry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a6c59a257e986222cc7bd41531f868413",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Record::getPlace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a7ffc06c78b5046b4bd4fdaa43e31c424",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Record::getRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#ac05f060acc45e41a73a2ccaa31b1adb2",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="BST::insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t.html#a2b117df6521c7d61dac75ff2c938bae7",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="BST::remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t.html#a6f01a0b44daf82a42022b6eb4c0df7a2",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Record::setCountry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a9600408f8ae5d9c6d9bed413eb142996",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Record::setDate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a0531316b7cdb72e4837d7288b3e45459",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Record::setPlace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#ac9bd6d0f18648bac1fe89840350801b2",tooltip=" "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Record::setRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a7524a65c5c81a5fff1cb96f8e80abc05",tooltip=" "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Record::setRecordist",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#ab96b762ba0fda6e83d7532e958f5f2df",tooltip=" "];
+}

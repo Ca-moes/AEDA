@@ -1,0 +1,54 @@
+digraph "Delegation::changeStaffMember"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Delegation::changeStaffMember",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="checkAlphaNumericInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$auxiliar_8cpp.html#a664b75b931245381d2fb2fd73c810d49",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="checkDateInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$auxiliar_8cpp.html#ac4b9e7766ca6ff5b233dac083c348d69",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Date::validateDate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_date.html#aa6d918e3d8c62b826e5bb0c40efccfd3",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Date::leapYear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_date.html#ae872548348ccc90a6f13d614f5943d8c",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="checkFloatInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$auxiliar_8cpp.html#a2951a42cbfb63434c2fd8f2e8ce17c0d",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="checkinputchoice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menus_8cpp.html#a9a825f830de2a8df955bbffae0852fd8",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="checkStringInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$auxiliar_8cpp.html#a38b12b0ae17b209757adabb8c944f98b",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="dateIsAfter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$auxiliar_8cpp.html#a560ce13dd99b0420e5d6869541e257d1",tooltip=" "];
+  Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="dateIsBefore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$auxiliar_8cpp.html#a8b04806717ed97feb48c62d6f13c1e63",tooltip=" "];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Delegation::findPerson",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#adb1130e6391f4b4fc82fac73df5f606a",tooltip=" "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Delegation::FindPersonHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a5d17d88d054718acb42c9b8bcbcff8d1",tooltip=" "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Staff::getEmployed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#ad788f0d243ec95470686757698b3ea51",tooltip=" "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Date::isOlimpianDate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_date.html#aa14e08c8e3d606a1bf0e07a2c294e5b5",tooltip=" "];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Person::setArrival",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_person.html#a573715d15221a8541ddc0eee94968065",tooltip=" "];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Staff::setAvailability",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#af2e9334dbeb63885d753feec4869f473",tooltip=" "];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Person::setBirth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_person.html#a250237a381933d13763ebc0a364f9aac",tooltip=" "];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Person::setDeparture",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_person.html#a3501c7e4f98bfbed542782cbae88244f",tooltip=" "];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="Staff::setEmployed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#aea8105a53a0df84eff03a92c2a0a0bf0",tooltip=" "];
+  Node1 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="Staff::setFunction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_staff.html#a32da5c2b9af33a85cd7c77a3d7a01101",tooltip=" "];
+  Node1 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="Person::setName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_person.html#a4b39c1f5d600b1e41ef95c09f4b42935",tooltip=" "];
+  Node1 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="Person::setPassport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_person.html#ab492d622af1071b96d8388fb4b8b5bf7",tooltip=" "];
+  Node1 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="to_bool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$auxiliar_8h.html#af8a0dcade60978906a4d65821146f4a7",tooltip=" "];
+}

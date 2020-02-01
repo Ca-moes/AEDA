@@ -1,0 +1,116 @@
+\hypertarget{class_parque_estacionamento}{}\doxysection{Parque\+Estacionamento Class Reference}
+\label{class_parque_estacionamento}\index{ParqueEstacionamento@{ParqueEstacionamento}}
+
+
+{\ttfamily \#include $<$parque.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_parque_estacionamento_a351972e05487e365b6940b8327bc7f09}{Parque\+Estacionamento}} (unsigned int lot, unsigned int n\+Max\+Cli)
+\item 
+bool \mbox{\hyperlink{class_parque_estacionamento_a5d447a45409f982304607188b926b7f7}{adiciona\+Cliente}} (const string \&nome)
+\item 
+\mbox{\Hypertarget{class_parque_estacionamento_a50d8386cde9ab11988540a1fb4e20bea}\label{class_parque_estacionamento_a50d8386cde9ab11988540a1fb4e20bea}} 
+bool {\bfseries retira\+Cliente} (const string \&nome)
+\item 
+\mbox{\Hypertarget{class_parque_estacionamento_a028d97cb1db8e5ba015d1566cda9d6ae}\label{class_parque_estacionamento_a028d97cb1db8e5ba015d1566cda9d6ae}} 
+bool {\bfseries entrar} (const string \&nome)
+\item 
+\mbox{\Hypertarget{class_parque_estacionamento_ac8a62193fec8e0c91f62b6dcd77486cd}\label{class_parque_estacionamento_ac8a62193fec8e0c91f62b6dcd77486cd}} 
+bool {\bfseries sair} (const string \&nome)
+\item 
+int \mbox{\hyperlink{class_parque_estacionamento_a322cd9cb62b69c8d36b8cfc523d7350b}{posicao\+Cliente}} (const string \&nome) const
+\item 
+\mbox{\Hypertarget{class_parque_estacionamento_a043a87c1d2e9b2a0b4d36939a7b3bb05}\label{class_parque_estacionamento_a043a87c1d2e9b2a0b4d36939a7b3bb05}} 
+unsigned int {\bfseries get\+Num\+Lugares} () const
+\item 
+\mbox{\Hypertarget{class_parque_estacionamento_a0ba07ce8524448fd0f7f0107eb1ba9a4}\label{class_parque_estacionamento_a0ba07ce8524448fd0f7f0107eb1ba9a4}} 
+unsigned int {\bfseries get\+Num\+Maximo\+Clientes} () const
+\item 
+\mbox{\Hypertarget{class_parque_estacionamento_a3b0f5b5dfc004548e6a627ea098e0679}\label{class_parque_estacionamento_a3b0f5b5dfc004548e6a627ea098e0679}} 
+unsigned int {\bfseries get\+Num\+Lugares\+Ocupados} () const
+\item 
+\mbox{\Hypertarget{class_parque_estacionamento_a1c0abb8c0c6921dc93d30527393b4274}\label{class_parque_estacionamento_a1c0abb8c0c6921dc93d30527393b4274}} 
+unsigned int {\bfseries get\+Num\+Clientes\+Atuais} () const
+\item 
+\mbox{\Hypertarget{class_parque_estacionamento_aabc81ce8b17eb653ec4ef4b6dc8d8db1}\label{class_parque_estacionamento_aabc81ce8b17eb653ec4ef4b6dc8d8db1}} 
+const \mbox{\hyperlink{class_parque_estacionamento}{Parque\+Estacionamento}} \& {\bfseries operator+=} (const \mbox{\hyperlink{class_parque_estacionamento}{Parque\+Estacionamento}} \&p2)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_parque_estacionamento_a016b006dd01672048901aea1fe91a0b0}\label{class_parque_estacionamento_a016b006dd01672048901aea1fe91a0b0}} 
+unsigned int {\bfseries vagas}
+\item 
+const unsigned int \mbox{\hyperlink{class_parque_estacionamento_a11f3aaaf4700a4505d6e789257fc5702}{lotacao}}
+\item 
+\mbox{\Hypertarget{class_parque_estacionamento_af96a8c7f5182148bf93e63b82d62e639}\label{class_parque_estacionamento_af96a8c7f5182148bf93e63b82d62e639}} 
+vector$<$ \mbox{\hyperlink{class_info_cartao}{Info\+Cartao}} $>$ {\bfseries clientes}
+\item 
+const unsigned int \mbox{\hyperlink{class_parque_estacionamento_a88481295258a1597a5e6d460d96cc3ee}{num\+Maximo\+Clientes}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe de Parque de Estacionamento. Descrição Elaborada do Parque de Estacionamento 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_parque_estacionamento_a351972e05487e365b6940b8327bc7f09}\label{class_parque_estacionamento_a351972e05487e365b6940b8327bc7f09}} 
+\index{ParqueEstacionamento@{ParqueEstacionamento}!ParqueEstacionamento@{ParqueEstacionamento}}
+\index{ParqueEstacionamento@{ParqueEstacionamento}!ParqueEstacionamento@{ParqueEstacionamento}}
+\doxysubsubsection{\texorpdfstring{ParqueEstacionamento()}{ParqueEstacionamento()}}
+{\footnotesize\ttfamily Parque\+Estacionamento\+::\+Parque\+Estacionamento (\begin{DoxyParamCaption}\item[{unsigned int}]{lot,  }\item[{unsigned int}]{n\+Max\+Cli }\end{DoxyParamCaption})}
+
+A constructor. A more elaborate description of the constructor. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_parque_estacionamento_a5d447a45409f982304607188b926b7f7}\label{class_parque_estacionamento_a5d447a45409f982304607188b926b7f7}} 
+\index{ParqueEstacionamento@{ParqueEstacionamento}!adicionaCliente@{adicionaCliente}}
+\index{adicionaCliente@{adicionaCliente}!ParqueEstacionamento@{ParqueEstacionamento}}
+\doxysubsubsection{\texorpdfstring{adicionaCliente()}{adicionaCliente()}}
+{\footnotesize\ttfamily bool Parque\+Estacionamento\+::adiciona\+Cliente (\begin{DoxyParamCaption}\item[{const string \&}]{nome }\end{DoxyParamCaption})}
+
+Adiciona clientes e retorna o seu sucesso 
+\begin{DoxyParams}{Parameters}
+{\em nome} & do cliente a adicionar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True se conseguiu adiconar, falso otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_parque_estacionamento_a322cd9cb62b69c8d36b8cfc523d7350b}\label{class_parque_estacionamento_a322cd9cb62b69c8d36b8cfc523d7350b}} 
+\index{ParqueEstacionamento@{ParqueEstacionamento}!posicaoCliente@{posicaoCliente}}
+\index{posicaoCliente@{posicaoCliente}!ParqueEstacionamento@{ParqueEstacionamento}}
+\doxysubsubsection{\texorpdfstring{posicaoCliente()}{posicaoCliente()}}
+{\footnotesize\ttfamily int Parque\+Estacionamento\+::posicao\+Cliente (\begin{DoxyParamCaption}\item[{const string \&}]{nome }\end{DoxyParamCaption}) const}
+
+Determina o index do cliente. 
+\begin{DoxyParams}{Parameters}
+{\em nome} & do cliente a verificar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/1 se não estiver dentro ou o index 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_parque_estacionamento_a11f3aaaf4700a4505d6e789257fc5702}\label{class_parque_estacionamento_a11f3aaaf4700a4505d6e789257fc5702}} 
+\index{ParqueEstacionamento@{ParqueEstacionamento}!lotacao@{lotacao}}
+\index{lotacao@{lotacao}!ParqueEstacionamento@{ParqueEstacionamento}}
+\doxysubsubsection{\texorpdfstring{lotacao}{lotacao}}
+{\footnotesize\ttfamily const unsigned int Parque\+Estacionamento\+::lotacao\hspace{0.3cm}{\ttfamily [private]}}
+
+numero de lugares do parque \mbox{\Hypertarget{class_parque_estacionamento_a88481295258a1597a5e6d460d96cc3ee}\label{class_parque_estacionamento_a88481295258a1597a5e6d460d96cc3ee}} 
+\index{ParqueEstacionamento@{ParqueEstacionamento}!numMaximoClientes@{numMaximoClientes}}
+\index{numMaximoClientes@{numMaximoClientes}!ParqueEstacionamento@{ParqueEstacionamento}}
+\doxysubsubsection{\texorpdfstring{numMaximoClientes}{numMaximoClientes}}
+{\footnotesize\ttfamily const unsigned int Parque\+Estacionamento\+::num\+Maximo\+Clientes\hspace{0.3cm}{\ttfamily [private]}}
+
+a private variable. Numero maximo de clientes. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Data/\+Andre/\+Work/\+M\+I\+E\+I\+C -\/ A\+N\+O 2 -\/ S\+E\+M\+E\+S\+T\+R\+E 1/\+A\+E\+D\+A/aeda1920\+\_\+fp01/\+Tests/parque.\+h\item 
+C\+:/\+Data/\+Andre/\+Work/\+M\+I\+E\+I\+C -\/ A\+N\+O 2 -\/ S\+E\+M\+E\+S\+T\+R\+E 1/\+A\+E\+D\+A/aeda1920\+\_\+fp01/\+Tests/parque.\+cpp\end{DoxyCompactItemize}

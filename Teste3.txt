@@ -1,0 +1,10 @@
+teorica
+2015/16 - https://drive.google.com/file/d/0B1PRHzgw_rU_WlV4VU05MTBlOE0/view?usp=sharing
+testes 3 e 4 - https://drive.google.com/drive/folders/0B5QTMYCjn8VnbEdOUERLQ25MYm8?usp=sharing
+teste 3 - https://drive.google.com/drive/folders/1gUkiHeRMTsU_Euh3Ig7AYohAe8lg3OeJ?usp=sharing
+
+pratica - https://drive.google.com/drive/folders/1L6Vt0973skXcKlf5uUjcIKAriyVFeFjR?usp=sharing
+
+tabelas de dispersão - unordered_set
+filas de prioridade - priority_queue
+arvores VP - set

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp10/Tests/caixa.h
+stack
+-
+iostream
+-
+
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp10/Tests/maquinaEmpacotar.cpp
+maquinaEmpacotar.h
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp10/Tests/maquinaEmpacotar.h
+sstream
+-
+
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp10/Tests/maquinaEmpacotar.h
+queue
+-
+vector
+-
+stack
+-
+iostream
+-
+caixa.h
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp10/Tests/caixa.h
+

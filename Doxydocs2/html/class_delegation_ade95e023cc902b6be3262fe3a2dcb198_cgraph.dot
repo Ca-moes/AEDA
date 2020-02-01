@@ -1,0 +1,16 @@
+digraph "Delegation::compareAthletesByMedals"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Delegation::compareAthletes\lByMedals",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Delegation::numberOfMedals\lAthlete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a07a01bc48d4a59ed7d762cc1761965da",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Delegation::getAthleteTeam",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a13542357616334f13de4546807fd4452",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Team::getName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_team.html#aed0161ba58535b159adbd8be83992909",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="insertionSort",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$auxiliar_8h.html#a2d750432a373f9dab8039bef160b71a0",tooltip=" "];
+}

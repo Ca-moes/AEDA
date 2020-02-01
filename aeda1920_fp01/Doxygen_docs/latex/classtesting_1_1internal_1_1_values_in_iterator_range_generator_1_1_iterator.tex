@@ -1,0 +1,52 @@
+\hypertarget{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator}{}\doxysection{testing\+::internal\+::Values\+In\+Iterator\+Range\+Generator$<$ T $>$\+::Iterator Class Reference}
+\label{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator}\index{testing::internal::ValuesInIteratorRangeGenerator$<$ T $>$::Iterator@{testing::internal::ValuesInIteratorRangeGenerator$<$ T $>$::Iterator}}
+Inheritance diagram for testing\+::internal\+::Values\+In\+Iterator\+Range\+Generator$<$ T $>$\+::Iterator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_aebd635efe7082e6fc45bb8ae0dbefd2e}\label{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_aebd635efe7082e6fc45bb8ae0dbefd2e}} 
+{\bfseries Iterator} (const \mbox{\hyperlink{classtesting_1_1internal_1_1_param_generator_interface}{Param\+Generator\+Interface}}$<$ T $>$ $\ast$base, typename Container\+Type\+::const\+\_\+iterator iterator)
+\item 
+\mbox{\Hypertarget{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a27445e4d010ffde9d3f2f9ada5d54d0f}\label{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a27445e4d010ffde9d3f2f9ada5d54d0f}} 
+const \mbox{\hyperlink{classtesting_1_1internal_1_1_param_generator_interface}{Param\+Generator\+Interface}}$<$ T $>$ $\ast$ {\bfseries Base\+Generator} () const override
+\item 
+\mbox{\Hypertarget{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a5ff56489536cf5d90ed0ac07ffeb476b}\label{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a5ff56489536cf5d90ed0ac07ffeb476b}} 
+void {\bfseries Advance} () override
+\item 
+\mbox{\Hypertarget{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a2c5ccf4da12cfb089829438d679ae35e}\label{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a2c5ccf4da12cfb089829438d679ae35e}} 
+\mbox{\hyperlink{classtesting_1_1internal_1_1_param_iterator_interface}{Param\+Iterator\+Interface}}$<$ T $>$ $\ast$ {\bfseries Clone} () const override
+\item 
+\mbox{\Hypertarget{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a55bd2a0d5a630478e32ec2efe08e37e4}\label{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a55bd2a0d5a630478e32ec2efe08e37e4}} 
+const T $\ast$ {\bfseries Current} () const override
+\item 
+\mbox{\Hypertarget{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a75604bc318aca22ff8607b68bfb44e96}\label{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a75604bc318aca22ff8607b68bfb44e96}} 
+bool {\bfseries Equals} (const \mbox{\hyperlink{classtesting_1_1internal_1_1_param_iterator_interface}{Param\+Iterator\+Interface}}$<$ T $>$ \&other) const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a87cadeed020bb8bfbdce636fca31b9ef}\label{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a87cadeed020bb8bfbdce636fca31b9ef}} 
+{\bfseries Iterator} (const \mbox{\hyperlink{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator}{Iterator}} \&other)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a904df7e46beda1ce5ac2c0ecd6680e0d}\label{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_a904df7e46beda1ce5ac2c0ecd6680e0d}} 
+const \mbox{\hyperlink{classtesting_1_1internal_1_1_param_generator_interface}{Param\+Generator\+Interface}}$<$ T $>$ $\ast$const {\bfseries base\+\_\+}
+\item 
+\mbox{\Hypertarget{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_aaff15b9f8addac71b91c32053bf9ea1e}\label{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_aaff15b9f8addac71b91c32053bf9ea1e}} 
+Container\+Type\+::const\+\_\+iterator {\bfseries iterator\+\_\+}
+\item 
+\mbox{\Hypertarget{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_af51f1a21ffb0cd531de7574f4ad1f9b6}\label{classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator_af51f1a21ffb0cd531de7574f4ad1f9b6}} 
+std\+::unique\+\_\+ptr$<$ const T $>$ {\bfseries value\+\_\+}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Data/\+Andre/\+Work/\+M\+I\+E\+I\+C -\/ A\+N\+O 2 -\/ S\+E\+M\+E\+S\+T\+R\+E 1/\+A\+E\+D\+A/aeda1920\+\_\+fp01/lib/googletest-\/master/googletest/include/gtest/internal/gtest-\/param-\/util.\+h\end{DoxyCompactItemize}

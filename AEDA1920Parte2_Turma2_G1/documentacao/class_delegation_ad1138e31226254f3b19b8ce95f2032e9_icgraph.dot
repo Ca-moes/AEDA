@@ -1,0 +1,12 @@
+digraph "Delegation::numberOfGoldMedalsCountry"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Delegation::numberOfGold\lMedalsCountry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Delegation::compareCountries\lByGoldMedals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a41e5fc7305b0bbc62f151d4635fcbb29",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="countriesSortGold",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_delegation_8cpp.html#a9fc3b5e766e886df1e1595365d9c4a6b",tooltip=" "];
+}

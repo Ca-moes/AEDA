@@ -1,0 +1,7 @@
+digraph "Medal"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Medal\n|- type\l- winner\l- country\l|+ Medal()\l+ Medal()\l+ getType()\l+ setType()\l+ getWinner()\l+ setWinner()\l+ getCountry()\l+ setCountry()\l+ info()\l+ showInfo()\l+ showType()\l+ operator\<()\l+ operator\>()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

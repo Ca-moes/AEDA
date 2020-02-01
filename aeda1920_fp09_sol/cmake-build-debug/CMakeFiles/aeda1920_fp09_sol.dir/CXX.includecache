@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp09_sol/Tests/aposta.cpp
+aposta.h
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp09_sol/Tests/aposta.h
+iostream
+-
+sstream
+-
+
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp09_sol/Tests/aposta.h
+unordered_set
+-
+vector
+-
+string
+-
+
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp09_sol/Tests/jogador.cpp
+jogador.h
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp09_sol/Tests/jogador.h
+
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp09_sol/Tests/jogador.h
+aposta.h
+C:/Data/Andre/Work/MIEIC - ANO 2 - SEMESTRE 1/AEDA/aeda1920_fp09_sol/Tests/aposta.h
+string
+-
+

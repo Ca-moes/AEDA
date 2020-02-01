@@ -1,0 +1,33 @@
+digraph "Team::getName"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Team::getName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Delegation::getAthletesWith\lMedals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a30c9bd369c519e0db8353e036cf69287",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Delegation::mostAwardedAthletes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a57a72d9eb35fccde220026c87dea54be",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="medalRankingsMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menus_8h.html#a54382ea3cbbc54d81137b642b7fdcceb",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="medalsStatisticsMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menus_8h.html#a7f0cfc49bf7a84f2b77cb20ed2edf186",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="mainMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menus_8h.html#adea89c8d29e4ae56d3ad951015c13f19",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Delegation::Delegation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a7974b21ea4c06b7fb1245507c2093b63",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Delegation::numberOfMedals\lAthlete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#a07a01bc48d4a59ed7d762cc1761965da",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Delegation::compareAthletes\lByMedals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#ade95e023cc902b6be3262fe3a2dcb198",tooltip=" "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="athletesSort",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_delegation_8cpp.html#a17865408429cd7b2de50a4b32fd74f74",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Team::operator\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_team.html#af7ec2bcbfbc59bc4c590a4b574d3a663",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Delegation::showAthleteMedals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_delegation.html#ac502a19c6b6466b6e69f36a261c6c3ca",tooltip=" "];
+  Node12 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Team::Team",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_team.html#ab1053b49813ccc8a5cc071eb24d00ff3",tooltip=" "];
+}

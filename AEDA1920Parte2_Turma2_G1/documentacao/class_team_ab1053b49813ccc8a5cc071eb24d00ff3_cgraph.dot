@@ -1,0 +1,16 @@
+digraph "Team::Team"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Team::Team",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Team::getAthletes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_team.html#ab25749845688cca958fd88d59a591ce4",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Participant::getCompetitions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_participant.html#ac430c2c6bafad889be674dac67d334fc",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Team::getName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_team.html#aed0161ba58535b159adbd8be83992909",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Participant::getSport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_participant.html#a0926425f1203368992d79ab1378e1e25",tooltip=" "];
+}

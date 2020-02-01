@@ -1,0 +1,26 @@
+digraph "Delegation::showRecordsByCompetition"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Delegation::showRecordsBy\lCompetition",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BSTItrIn::advance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t_itr_in.html#ac772d3ebbac748c5f8cf9bc659f2e32c",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="checkinputchoice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_menus_8cpp.html#a9a825f830de2a8df955bbffae0852fd8",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Record::getCompetition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a7fd5c394a1195c783bc0b1333918078c",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Record::getRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#ac05f060acc45e41a73a2ccaa31b1adb2",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Record::getTrial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a5779e07879a789e84c2a5bfcdb058728",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="BSTItrIn::isAtEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t_itr_in.html#a6f9a43217862c263a9bf15b9a08b889a",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="BST::isEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t.html#a10fd737b2be62437023407fdc123f728",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="BSTItrIn::retrieve",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t_itr_in.html#ac7ac215c1247bd25fc1fdb8053826a32",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Record::showInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a9e80951bf7347a1ddb214059a7a63dab",tooltip=" "];
+}

@@ -1,0 +1,79 @@
+Athletics
+100mts
+-
+05/08/2012
+Berlin
+Jamaica-Usain Bolt
+9.63
+
+200mts
+-
+20/08/2012
+Berlin
+Jamaica-Usain Bolt
+19.19
+
+Long Jump
++
+11/06/1988
+Saint Petersburg
+Russia-Galina Chistyakova
+7.52
+
+Men's Triple Jump
++
+07/08/1995
+Gothenburg
+Great Britain-Jonathan Edwards
+18.29
+
+Women's Discus Throw
++
+01/10/1992
+Berlin
+Germany-Lilli Henoch
+24.9
+////////
+Cycling
+Omnium-Elimination race
+-
+02/08/2020
+Tokyo
+Denmark-Lasse Norman Hansen
+13.66
+//
+Omnium-Points race
+-
+03/08/2020
+Tokyo
+Portugal-Ivo Emanuel Alves Oliveira
+11.04
+//
+Omnium-Scratch race
+-
+-1
+-1
+-1
+-1
+//
+Omnium-Tempo race
+-
+01/08/2020
+Tokyo
+Portugal-Maria Carolina Martins
+10
+////////
+Gymnastics
+Artistic
++
+28/07/2020
+Prague
+Czechoslovakia-Marie Mejzlikova
+16
+
+Trampoline
++
+19/08/2008
+Beijing
+United States-Nastia Liukin
+18

@@ -1,0 +1,38 @@
+digraph "Delegation::readRecordsFile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Delegation::readRecordsFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="checkDateInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$auxiliar_8cpp.html#ac4b9e7766ca6ff5b233dac083c348d69",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Date::validateDate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_date.html#aa6d918e3d8c62b826e5bb0c40efccfd3",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Date::leapYear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_date.html#ae872548348ccc90a6f13d614f5943d8c",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="checkFloatInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$auxiliar_8cpp.html#a2951a42cbfb63434c2fd8f2e8ce17c0d",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="checkStringInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$auxiliar_8cpp.html#a38b12b0ae17b209757adabb8c944f98b",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="BST::insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_s_t.html#a2b117df6521c7d61dac75ff2c938bae7",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Record::setComparisonCriteria",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a0cee63524f953f3464cd88bedc2a967e",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Record::setCompetition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#aaec38bc7321f339b33b0963906b353bb",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Record::setCountry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a9600408f8ae5d9c6d9bed413eb142996",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Record::setDate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a0531316b7cdb72e4837d7288b3e45459",tooltip=" "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Record::setPlace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#ac9bd6d0f18648bac1fe89840350801b2",tooltip=" "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Record::setRecord",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a7524a65c5c81a5fff1cb96f8e80abc05",tooltip=" "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Record::setRecordist",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#ab96b762ba0fda6e83d7532e958f5f2df",tooltip=" "];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Record::setSport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a51d46006e64e67caa8ba4e632299bb03",tooltip=" "];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Record::setTrial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_record.html#a6864fc3b4bb0885c28dc4b217a57ea5a",tooltip=" "];
+}
